@@ -254,7 +254,7 @@ export default function Home() {
               </p>
             </div>
             <p className="text-xs text-muted-foreground text-center md:text-left">
-              Built with ❤️ using{" "}
+              Built with love using{" "}
               <Link href="https://www.python.org/doc/" className="hover:text-foreground">Python</Link>,{" "}
               <Link href="https://qdrant.tech/" className="hover:text-foreground">Qdrant</Link>,{" "}
               <Link href="https://fastapi.tiangolo.com/" className="hover:text-foreground">FastAPI</Link>,{" "}

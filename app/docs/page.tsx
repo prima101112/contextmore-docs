@@ -5,7 +5,7 @@ async function getReadmeContent() {
   try {
     const response = await fetch(
       "https://raw.githubusercontent.com/prima101112/contextmore/main/README.md",
-      { next: { revalidate: 3600 } }, // Revalidate every hour
+      { next: { revalidate: 900 } }, 
     )
 
     if (!response.ok) {
